@@ -417,14 +417,6 @@ align-items: center;
 margin-bottom: 40px;
 }
 
-.zoom-hint {
-font-size: 0.8rem;
-color: var(--primary-purple);
-margin-top: 8px;
-font-weight: 600;
-opacity: 0.8;
-}
-
 .img-label {
 margin-top: 5px;
 font-size: 1rem;
