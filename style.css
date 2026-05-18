@@ -350,62 +350,23 @@ h2 {
         height: 160px;
     }
 }
-/* Style spécifique pour le gros bouton de téléchargement */
-.download-container {
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-}
-
-.btn-cta {
-    display: flex !important;
+.btn-download {
+    display: inline-flex;
     align-items: center;
-    justify-content: center;
-    padding: 18px 32px !important;
-    background: linear-gradient(135deg, var(--primary-blue), var(--primary-purple)) !important;
-    color: white !important;
-    border-radius: 12px !important; /* Format plus "bouton logiciel" que pilule */
-    box-shadow: 0 10px 20px rgba(59, 130, 246, 0.3);
+    gap: 10px;
+    background-color: #ffffff;
+    color: var(--primary-purple);
+    border: 2px solid var(--primary-purple);
+    padding: 10px 20px;
+    border-radius: 8px;
     text-decoration: none;
-    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
-    width: 100%;
-}
-
-.btn-cta:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 15px 30px rgba(59, 130, 246, 0.4);
-}
-
-.btn-cta:active {
-    transform: translateY(0);
-}
-
-.btn-cta .icon {
-    font-size: 2rem;
-    margin-right: 15px;
-}
-
-.btn-text {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-}
-
-.main-txt {
-    font-size: 1.1rem;
-    font-weight: 700;
-}
-
-.sub-txt {
-    font-size: 0.75rem;
-    opacity: 0.8;
-    font-weight: 400;
-}
-
-.install-note {
-    font-size: 0.8rem;
-    color: var(--text-muted);
+    font-weight: 600;
+    transition: all 0.3s ease;
     margin-top: 15px;
-    font-style: italic;
-    line-height: 1.3;
+}
+
+.btn-download:hover {
+    background-color: var(--primary-purple);
+    color: white;
+    transform: translateY(-2px);
 }
