@@ -410,3 +410,24 @@ h2 {
         grid-template-columns: 1fr;
     }
 }
+.screenshot-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.zoom-hint {
+    font-size: 0.8rem;
+    color: var(--primary-purple);
+    margin-top: 8px;
+    font-weight: 600;
+    opacity: 0.8;
+}
+
+.img-label {
+    margin-top: 5px;
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--text-main);
+}
