@@ -423,3 +423,18 @@ font-size: 1rem;
 font-weight: 700;
 color: var(--text-main);
 }
+.doc-buttons-grid {
+    display: flex;
+    gap: 15px;
+    justify-content: center; /* Centre les boutons horizontalement */
+    flex-wrap: wrap;       /* Les boutons s'empilent sur mobile */
+    margin-top: 15px;
+}
+
+/* On s'assure que les boutons ont la même taille pour le style */
+.doc-buttons-grid .btn-download {
+    margin-top: 0; /* On retire la marge du haut pour l'alignement */
+    flex: 1;
+    max-width: 300px;
+    justify-content: center;
+}
